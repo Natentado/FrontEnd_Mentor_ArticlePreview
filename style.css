@@ -1,7 +1,34 @@
-:root{}
+:root{
+    --white: #FFFFFF;
+    --grey-900: #48556A;
+    --grey-500: #6E8098;
+    --grey-400: #9DAEC2;
+    --grey-200: #ECF2F8;
+}
+
+.text-preset-1-bold {};
+.text-preset-2-bold {};
+.text-preset-2 {};
+.text-preset-3 {};
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    padding: 24px;
+    background-color: var(--grey-200);
+
+    article{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
 }
