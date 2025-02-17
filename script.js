@@ -1,4 +1,4 @@
-const shareBtn = document.getElementById("shareBtn");
+const shareBtn = document.getElementById("shareBtnFirst");
 const internalShareBtn = document.getElementsByClassName("__internal")[0];
 
 shareBtn.onclick = (el, e) => {

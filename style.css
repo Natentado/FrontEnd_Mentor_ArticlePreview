@@ -27,7 +27,7 @@
     text-transform: uppercase;
 }
 
-#shareBtn{
+.shareBtn{
     cursor: pointer;
     display: flex;
     justify-content: center;
